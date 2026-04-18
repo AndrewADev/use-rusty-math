@@ -1,0 +1,12 @@
+[project]
+name = "use-rusty-math"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "rusty-math",
+]
+
+[tool.uv.sources]
+rusty-math = { path = "../rusty-math" }
